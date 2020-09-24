@@ -17,9 +17,16 @@ public class GebruikersInvoer {
         System.out.println("Voer een getal in");
         //Read users input in java 11
         Scanner v = new Scanner(System.in);
-        var number = v.nextLine();
-        // idk what to do :D
-        System.out.println("De tafel van " +number + " is ");
+        var number = v.nextInt();
+        // mistake was in using v.nextlenght instead of v.nextInt
+        System.out.println("De tafel van " + number + " is ");
+        System.out.println(number * 1 );
+        System.out.println(number * 2 );
+        System.out.println(number * 3 );
+        System.out.println(number * 4 );
+        System.out.println(number * 5);
+
+
 
 
 
